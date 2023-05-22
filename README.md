@@ -5,7 +5,7 @@
 
 ​		本插件可以选定获取到公网ipv6的网口做nat6，并且在网络发生变化时自动更新设置。
 
-![show](./show.png)  
+<center><img src="./show.png" alt="show" style="zoom:67%;" /></center>
 
 ## 使用方法:
 ### 方法一（推荐）
