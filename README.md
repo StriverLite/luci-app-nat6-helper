@@ -19,6 +19,8 @@
 
 ## 参考链接：
 
+> [hedazhong/luci-app-nat6-helper: backup (github.com)](https://github.com/hedazhong/luci-app-nat6-helper)
+>
 > [Ausaci/luci-app-nat6-helper: Nat6 One-Click Configuration! (github.com)](https://github.com/Ausaci/luci-app-nat6-helper)
 >
 > [再说 OpenWRT 校园网 IPv6 NAT6-OPENWRT专版-恩山无线论坛 - Powered by Discuz! (right.com.cn)](https://www.right.com.cn/forum/thread-2661027-1-1.html)
