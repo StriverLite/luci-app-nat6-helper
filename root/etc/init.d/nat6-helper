@@ -252,7 +252,7 @@ ipv6_daemon()
 
             #用于ping的参数均需获取实时最新值，以便获取修改
             WAN6_NAME=$(uci get nat6-helper.@nat6-helper[0].name)                                     #选定的IPv6上行接口
-            interface=$(uci get "network.$WAN6_NAME.device" || uci get "network.$WAN6_NAME.ifname")   #获取选中的ipv6接口的物理接口
+            interface=$(uci get "network.$WAN6_NAME.device" 2>/dev/null || uci get "network.$WAN6_NAME.ifname")   #获取选中的ipv6接口的物理接口
             ping_host=$(uci get nat6-helper.@daemon_ipv6[0].ping_host)                                #ping主机
 
             #ping检测
